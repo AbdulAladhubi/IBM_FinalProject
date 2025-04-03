@@ -1,0 +1,13 @@
+------------------------------------------------------------------------------------------
+npm install express mongoose dotenv jsonwebtoken bcryptjs
+npm install --save-dev nodemon concurrently
+-----
+express: To create your web server.
+mongoose: MongoDB object modeling tool designed to work in an asynchronous environment.
+dotenv: Loads environment variables from a .env file into process.env.
+jsonwebtoken: For generating JSON Web Tokens for authentication.
+bcryptjs: For hashing and comparing passwords securely.
+nodemon: For restarting your server automatically during development.
+concurrently: To run multiple commands (like both nodemon and MongoDB) simultaneously.
+
+-------------------------------------------------------------------------------------------
